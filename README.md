@@ -42,6 +42,6 @@ Go to your browser and type `localhost:4000` .
 # Tutorials
 
 - [Learn php in (y) minutes ](https://learnxinyminutes.com/docs/php/)
-- [Learn modern PHP](https://learnxinyminutes.com/docs/php/)
+- [Learn modern PHP](https://github.com/odan/learn-php)
 
 ## Thanx
