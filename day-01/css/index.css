@@ -1,3 +1,6 @@
+body {
+  margin: 35px 50px;
+}
 h2 {
   font-size: 18px;
   font-style: italic;
@@ -14,6 +17,11 @@ p {
   text-align: center;
 }
 #header {
-  color: yellow;
+  color: #cccccc;
+}
+.titre {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 /* Don't Repeat Yourself */
