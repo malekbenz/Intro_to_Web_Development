@@ -7,6 +7,7 @@ Welcome to the course, this is an introdution to web development
 - [Prepare the environment](#Prepare-the-environment)
 - [Run PHP Cli](#Run-PHP-Cli)
 - [add your PHP to PATH environment variable](#add-your-PHP-to-PATH-environment-variable)
+- [Tutorials](#Tutorials)
 
 # Prepare the environment
 
@@ -37,5 +38,10 @@ And voilà!
         - `php -S localhost:4000 -t . `
 
 Go to your browser and type `localhost:4000` .
+
+# Tutorials
+
+- [Learn php in (y) minutes ](https://learnxinyminutes.com/docs/php/)
+- [Learn modern PHP](https://learnxinyminutes.com/docs/php/)
 
 ## Thanx
