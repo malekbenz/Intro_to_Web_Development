@@ -5,8 +5,8 @@ Welcome to the course, this is an introdution to web development
 ## Table of Contents
 
 - [Prepare the environment](#Prepare-the-environment)
-- [Run PHP Cli](#Run-PHP-Cli)
 - [add your PHP to PATH environment variable](#add-your-PHP-to-PATH-environment-variable)
+- [Run PHP Cli](#Run-PHP-Cli)
 - [Tutorials](#Tutorials)
 
 # Prepare the environment
