@@ -5,6 +5,7 @@ Welcome to the course, this is an introdution to web development
 ## Table of Contents
 
 - [Prepare the environment](#Prepare-the-environment)
+- [Run PHP Cli](#Run-PHP-Cli)
 
 # Prepare the environment
 
