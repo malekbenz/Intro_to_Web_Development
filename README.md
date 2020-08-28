@@ -43,6 +43,7 @@ Go to your browser and type `localhost:4000` .
 
 - [Learn php in (y) minutes ](https://learnxinyminutes.com/docs/php/)
 - [Learn modern PHP](https://github.com/odan/learn-php)
+- [PHP Apprentice](https://phpapprentice.com/)
 - [PHP 7: Missing VCRUNTIME140.dll](https://stackoverflow.com/questions/30811668/php-7-missing-vcruntime140-dll)
 
 ## Thanx
