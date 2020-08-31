@@ -1,6 +1,7 @@
 <?php
+echo "Repetition is mother of skill \n";
 echo "O.O.P \n";
-
+//
 class Student
 {
     private $name;
