@@ -3,12 +3,11 @@ echo "O.O.P \n";
 
 class Student
 {
-    private $name;
+    public $name;
     public static $count = 0;
     public function __construct($name)
     {
         $this->name = $name;
-
         echo "New object created  " . ++$this::$count . " \n";
     }
     public function show_info()
