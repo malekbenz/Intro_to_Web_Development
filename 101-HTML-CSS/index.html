@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>biographie</title>
+	</head>
+	<body>
+		<heade>Biography scientists</div>
+		<div class="barNavigation">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#bill">Bill Cherif</a></li>
+				<li><a href="#steve">Steve Lyes</a></li>
+				<li><a href="#contact">contact me </a></li>
+			</ul>
+		</div>
+		<div class="contenu">
+			<div id="bill" class="person">
+				<h3>Steve Lyes</h3>
+				<a href="http://apple.com" target="blank">
+					<img
+						src="data:image/jpeg;base64,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"
+						alt="Steve lyes"
+					/>
+				</a>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quasi
+					dignissimos reiciendis aperiam excepturi facilis quos, sapiente minus,
+					maxime, amet deserunt repellendus obcaecati quae! Fuga!
+				</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn HTML Basic</title>
-    <link rel="stylesheet" href="./css/fateh.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <!-- Last win -->
+				<a href="http://apple.com" target="_blank">Visyer mon site</a>
+			</div>
+			<div id="steve" class="person">
+				<h3>Bill Cherif</h3>
+				<a href="http://microsoft.com" target="blank">
+					<img src="img/bill.jpg" alt="Bill cherif" width="250" />
+				</a>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quasi
+					dignissimos reiciendis aperiam excepturi facilis quos, sapiente minus,
+					maxime, amet deserunt repellendus obcaecati quae! Fuga!
+				</p>
 
-</head>
+				<a href="http://apple.com" target="_blank">Visyer mon site</a>
+			</div>
+			<!-- Begin Contact form-->
+			<div id="contact">
+				<h3>Contact</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+					Necessitatibus iure iusto modi sit explicabo eius eum tempore fugit?
+					Perferendis minima tempora aliquid nihil iusto expedita iste? Iste
+					suscipit delectus, itaque voluptates architecto fugiat molestias
+					reprehenderit inventore obcaecati dolorem, nostrum maxime aliquid sunt
+					velit ipsa voluptatibus consequatur est officiis vitae debitis quis
+				</p>
+			</div>
 
-<body>
-    <h1 class="titre">Learn HTML AND PHP</h1>
-    </h2>What is Lorem Ipsum?</h2>
-    <p class="intro">This is an amzing day !!!!!!</p>
-    <div class="intro">This is an amzing day !!!!!!</div>
-    <hr>
-    <p class="introduction">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.</p>
-</body>
-<h2><a href="http://google.com"> Why do we use it?</a> </h2>
-<hr>
-<p><b> It is a long</b> <i class="introduction"> established fact </i> <br>
-    that a reader will be distracted by the readable content of a page when looking at its layout. The point of using
-    Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content
-    here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem
-    Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
-    and the like).</p>
-<h2>Where does it come from?</h2>
-<hr>
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-    going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-    from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-    written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
-    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-    and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-    accompanied by English versions from the 1914 translation by H. Rackham.</p>
-</body>
-
+			<!-- End Contact form-->
+		</div>
+		<div class="footer">
+			<p>Copyright &copy; 2020 Cherif et Lyes</p>
+		</div>
+	</body>
 </html>

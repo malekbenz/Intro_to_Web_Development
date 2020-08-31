@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/tables.css" />
+
+		<title>html tables</title>
+		<script>
+			function sayHello(name) {
+				alert("Hello Mr. " + name + Date.now());
+			}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Tables</h1>
+		</div>
+		<div class="navigation">Menu</div>
+		<div class="content">
+			<h3>Table1</h3>
+			<table>
+				<thead>
+					<tr>
+						<!-- table row-->
+						<th>
+							<!-- table data-->
+							id
+						</th>
+						<th>
+							<!-- table data-->
+							name
+						</th>
+						<th>
+							<!-- table data-->
+							mobile
+						</th>
+						<th>
+							<!-- table data-->
+							Adresse
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Cherif</td>
+						<td>0770707070</td>
+						<td>0770707070</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Mohammed</td>
+						<td>07727272</td>
+						<td>
+							<button id="btn" onclick="sayHello('Yacine')">Execute</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">Liste des objets</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>3</td>
+						<td colspan="2">Ali</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="footer">footer</div>
+	</body>
+</html>
