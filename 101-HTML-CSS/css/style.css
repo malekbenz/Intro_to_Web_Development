@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    background-color: coral;
+    padding: 30px;
+    background-image: url('../img/bg1.jpeg');
+}
+
+.barNavigation {
+    margin: 2px;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 15px;
+}
+
+ul li {
+   display: inline-block; 
+   padding: 10px;
+   cursor: pointer; 
+}
+
+ul li:hover {
+    background-color: rgb(246, 188, 41);
+}
+
+.contenu {
+    margin: 20px;
+}
+
+.person {
+    height: 450px;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: darkgray;
+    font-size: 12px;
+    padding: 10px;
+}

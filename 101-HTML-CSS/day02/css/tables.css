@@ -1,0 +1,38 @@
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 0px solid black;
+    text-align: center;
+     padding: 4px;
+    
+}
+
+th {
+    background-color: cadetblue;
+
+    border-bottom: 2px solid ;
+    border-top: 1px solid ;
+
+}
+
+tr:hover {
+    background-color: chartreuse;
+}
+
+tr:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+#btn  {
+    color: cornsilk;
+    background-color: indigo;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 6px;
+    border-style: none;
+
+}
