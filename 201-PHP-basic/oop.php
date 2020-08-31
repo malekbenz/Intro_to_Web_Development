@@ -1,5 +1,5 @@
 <?php
-echo "Repetition is mother of skill \n";
+echo "Repetition is mother of skill (tony robins) \n";
 echo "O.O.P \n";
 //
 class Student
