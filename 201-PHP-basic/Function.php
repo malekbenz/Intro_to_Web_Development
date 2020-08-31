@@ -18,17 +18,17 @@ echo "10 + 15 = " . add(10, 15) . "\n";
 echo "12 + 13 = " . $add(12, 13) . "\n";
 ///// ----------
 echo "Counter start here ------------ \n";
-// $count = 0;
+$count = 0;
 
 function increment()
 {
     static $count = 0;
     echo "counter value is : " . $count++ . "\n";
 }
-function increment_chichi()
+function increment_global()
 {
-    static $count = 0;
-    echo "counter value is : " . $count++ . "\n";
+    global $count;
+    echo "Global counter value is : " . $count++ . "\n";
 }
 
 increment();
@@ -36,5 +36,7 @@ increment();
 increment();
 increment();
 increment();
-increment_chichi();
-increment_chichi();
+
+echo "Increment global Counter start here ------------ \n";
+increment_global();
+increment_global();
