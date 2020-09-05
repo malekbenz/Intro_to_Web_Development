@@ -20,17 +20,29 @@ Welcome to the course, this is an introdution to web development
 
 # add your PHP to PATH environment variable
 
-    1. Right-click on the “Start menu”
-    2. Click “System”
-    3. Click “Advanced system settings”
-    4. Click “Environment Variables…”
-    5. Select the “Path” variable (in your user or in the system list)
-    6. Click “Edit…”
-    7. Click “New”
-    8. Paste your PHP path
+1. Right-click on the “Start menu”
+2. Click “System”
+3. Click “Advanced system settings”
+
+!["Composer test"](/images/windows-10-system-properties.png)
+
+4. Click “Environment Variables…”
+
+!["Composer test"](/images/windows-10-system-variables-path.png).
+
+5. Select the “Path” variable (in your user or in the system list)
+6. Click “Edit…”.
+7. Click “New”
+
+8. Paste your PHP path
+
+!["Composer test"](/images/windows-10-new-environment-variable-path.png)
+
     9. Click OK
 
-And voilà!
+!["Composer test"](/images/windows-10-php7-command-prompt.png)
+
+> And voilà!
 
 # Run PHP Cli
 
@@ -44,9 +56,11 @@ Go to your browser and type `localhost:4000` .
 
 - Download and run [Composer-Setup.exe](https://getcomposer.org/download/) :
 
-        - run  : `composer -V`
+            - run  : `composer -V`
 
   > **Note**: Close your current terminal. Test usage with a new terminal: This is important since the PATH only gets loaded when the terminal starts
+
+  !["Composer test"](/images/composer-windows-10-command-prompt.png)
 
 # Tutorials
 
