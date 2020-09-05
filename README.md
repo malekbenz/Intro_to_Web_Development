@@ -3,11 +3,13 @@
 Welcome to the course, this is an introdution to web development
 
 # Table of Contents
-  - [Prepare the environment](#Prepare-the-environment)
-  - [add your PHP to PATH environment variable](#add-your-PHP-to-PATH-environment-variable)
-  - [Run PHP Cli](#Run-PHP-Cli)
-  - [Intermediate PHP](210-PHP-Intermediate/README.md)
-  - [Tutorials](#Tutorials)
+
+- [Prepare the environment](#Prepare-the-environment)
+- [add your PHP to PATH environment variable](#add-your-PHP-to-PATH-environment-variable)
+- [Run PHP Cli](#Run-PHP-Cli)
+- [Intermediate PHP](210-PHP-Intermediate/README.md)
+- [Tutorials](#Tutorials)
+
 # Prepare the environment
 
 - [Download & install GIT ](https://git-scm.com/downloads)
@@ -37,6 +39,14 @@ And voilà!
         - `php -S localhost:4000 -t . `
 
 Go to your browser and type `localhost:4000` .
+
+# Install composer
+
+- Download and run [Composer-Setup.exe](https://getcomposer.org/download/) :
+
+        - run  : `composer -V`
+
+  > **Note**: Close your current terminal. Test usage with a new terminal: This is important since the PATH only gets loaded when the terminal starts
 
 # Tutorials
 
