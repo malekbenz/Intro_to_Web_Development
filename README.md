@@ -28,7 +28,7 @@ Welcome to the course, this is an introdution to web development
 
 4. Click “Environment Variables…”
 
-!["Composer test"](/images/windows-10-system-variables-path.png).
+![""](/images/windows-10-system-variables-path.png).
 
 5. Select the “Path” variable (in your user or in the system list)
 6. Click “Edit…”.
@@ -36,11 +36,11 @@ Welcome to the course, this is an introdution to web development
 
 8. Paste your PHP path
 
-!["Composer test"](/images/windows-10-new-environment-variable-path.png)
+<img src="./images/windows-10-new-environment-variable-path.png" alt="drawing" width="70%"/>
 
     9. Click OK
 
-!["Composer test"](/images/windows-10-php7-command-prompt.png)
+![""](/images/windows-10-php7-command-prompt.png)
 
 > And voilà!
 
