@@ -36,7 +36,7 @@ Welcome to the course, this is an introdution to web development
 
 8. Paste your PHP path
 
-<img src="./images/windows-10-new-environment-variable-path.png" alt="drawing" width="70%"/>
+<img src="./images/windows-10-new-environment-variable-path.png" alt="path" width="70%"/>
 
     9. Click OK
 
