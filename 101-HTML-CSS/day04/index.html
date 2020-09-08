@@ -1,0 +1,116 @@
+<?php 
+
+$pass = "124578";
+
+$userName = $_POST['userName'];
+$passWord = $_POST['passWord'];
+
+if ($passWord == $pass && $userName == "Lyes") {
+    echo  "Login with success !";
+} else {
+    echo " Ahchem choui !!" ;
+}
+
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>HTML Forms</title>
+	</head>
+	<body>
+		<h1>Forms</h1>
+
+		<form action="">
+			<!-- Form with get method -->
+			<!-- elements -->
+
+			<select name="cars" id="cars">
+				<option value="0">Select a car</option>
+				<optgroup label="vintage">
+					<option value="1">BMS</option>
+					<option value="2" selected>RITMO</option>
+					<option value="3">R4</option>
+				</optgroup>
+				<optgroup label="New Model">
+					<option value="4">THEBANA</option>
+					<option value="1">BMS</option>
+					<option value="2">RITMO</option>
+					<option value="3">R4</option>
+					<option value="4">THEBANA</option>
+					<option value="1">BMS</option>
+				</optgroup>
+			</select>
+			<br />
+			<br />
+			<input
+				type="text"
+				name="firstName"
+				placeholder="enter you first name"
+				required
+			/><br />
+
+			<label for="lastName">Last Name</label><br />
+			<input type="text" name="lastName" value="Fateh" readonly /><br /><br />
+
+			<input type="number" placeholder="1.0" step="10" min="0" max="200" />
+
+			<label for="Password">Password</label><br />
+			<input type="password" name="password" /><br /><br />
+
+			<input type="time" />
+
+			<label for="email">email</label><br />
+			<input type="email" name="email" disabled /><br /><br />
+
+			<input type="hidden" name="Secret" id="" value="Lyes is the best" />
+
+			<label for="age">Age</label><br />
+			<input type="number" name="age" /><br />
+
+			<input type="range" name="range" />
+
+			<input type="file" />
+			<input type="color" name="couleur" />
+
+			<input type="search" placeholder="search" />
+
+			<label for="">Our text</label>
+			<textarea name="ourtext" id="" cols="40" rows="4"></textarea>
+			<br />
+
+			<input type="checkbox" id="sport1" name="sport1" value="FootBall" />
+			<label for="sport1">FootBall</label>
+			<br />
+
+			<input type="checkbox" id="sport2" name="sport2" value="Natation" />
+			<label for="sport1">Natation</label>
+			<br />
+
+			<input type="checkbox" id="sport3" name="sport3" value="Ski" />
+			<label for="sport1">Ski</label>
+			<br />
+
+			<input type="radio" name="gender" id="male" value="male" />
+			<label for="">Male</label><br />
+
+			<input type="radio" name="gender" id="male" value="female" />
+			<label for="">Female</label><br />
+
+			<input type="radio" name="gender" id="male" value="other" />
+			<label for="">Other</label><br />
+
+			<input type="date" /><br />
+			<hr />
+
+			<input type="reset" name="" id="" value="RAZ" />
+
+			<input type="submit" value="Send data " />
+		</form>
+		
+	</body>
+</html>

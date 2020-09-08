@@ -1,0 +1,21 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+form {
+
+    padding: 10px 30px; 
+    
+    border: 10px solid royalblue;
+}
+
+input[type=text]  {
+    padding: 10px;
+    background-color: rgb(212, 211, 209);
+    font-size: large;
+    border-radius: 10px;
+    width: 100%;
+
+    
+}
